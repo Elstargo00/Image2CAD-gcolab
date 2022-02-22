@@ -15,7 +15,7 @@ from Core.Features.ConnectedComponents.ConnectedComponents import ConnectedCompo
 from Core.Features.FeatureManager import DimensionalTexts
 from Core.Utils.ImgTransform import ImgTransform
 from Core.Features.Cognition.Cognition import Cognition
-from Core.Features.Texts import pytesseract
+import pytesseract
 from PIL import Image
 
 from xml.etree import ElementTree as ET
